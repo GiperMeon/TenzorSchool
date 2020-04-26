@@ -1,0 +1,70 @@
+body{
+	text-align: center;
+	font-size: 13px;
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+	
+}
+
+
+header {
+	margin: 40px 0px;
+}
+
+header div{
+	display: inline;
+}
+header .title img{
+	height: 15px;
+}
+
+header .title span{
+	font-size: 20px;
+}
+header .title span:after{
+	content: '';
+	display:block;
+	border-top: 2px solid #000;
+	width: 100px;
+	margin: 15px auto;
+}
+.avatar{
+	width:150px;
+	display: inline-block;
+	margin: 20px 20px;
+	
+}
+.student{
+	margin-top: 10px;
+}
+.avatar img{
+	width:150px;
+	height:150px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+#paper{
+	max-width:600px;
+	margin: 0 auto;
+	width: 600px:
+	
+}
+
+#name{
+	font-size: 14px;
+	font-weight: bold;
+	white-space: pre;
+	overflow: hidden;
+}
+
+#univ{
+	color: grey;
+	
+}	
+
+
+
+
+
+
+
