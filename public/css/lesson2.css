@@ -67,6 +67,21 @@ article{
 footer{
 	grid-area:footer;
 	background: #3C3C3C;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.tenzor{
+	flex-grow: 1;
+	padding: 17px 39px;
+}
+
+.rule{
+	padding: 17px 39px;
 }
 	
 .card{
@@ -112,6 +127,11 @@ footer{
 	height:40px;
 	text-align: center;
 	padding-top: 15px;
+}
+.card_href:hover{
+	background: #3C3C3C;
+	border-radius: 10px;
+	color: white;
 }
 
 
